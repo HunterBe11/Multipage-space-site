@@ -1,0 +1,60 @@
+* {
+  color: purple;
+}
+
+body {
+  background-image: url("https://miro.medium.com/max/1200/1*9IIoxOcIbhMFFKMCI2ncuQ.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cochin; serif;
+}
+
+/*
+h1, a {
+  color: white;
+}
+*/
+
+h1:first-letter {
+  font-size: 2em;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+nav a:hover {
+  background-color: purple;
+  color: yellow;
+}
+
+nav a:active {
+  background-color: blue;
+  color: gray;
+}
+
+a[target="_blank"] {
+  background-color: yellow;
+  color: purple;
+}
+
+main {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 2em;
+}
+
+p {
+  text-align: justify;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+img {
+  width: 40%;
+  margin: 30px;
+}
